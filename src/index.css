@@ -10,7 +10,7 @@
     --font-Inter: 'Inter', sans-serif;
     --text-color: #737A91;
     --button-bg: #0154AA;
-
+    --text-color2:#333333;
 }
 
 .font-Inter {
@@ -19,8 +19,16 @@
 .text-dark{
     color: var(--text-color);
 }
+.text-dark2{
+    color: var(--text-color2);
+}
 .bg-blue-button{
     background-color: var(--button-bg);
+}
+
+.background-cover-image{
+  background-image: url(./assets/cover.png);
+  
 }
 
 /* font-sizes  */
